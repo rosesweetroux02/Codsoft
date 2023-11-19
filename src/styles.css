@@ -1,3 +1,23 @@
+@media screen and (min-width: 480px) {
+  .calculator-app {
+    max-width: 600px;
+  }
+
+  .buttons {
+    gap: 12px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .calculator-app {
+    max-width: 800px;
+  }
+
+  .buttons {
+    gap: 16px;
+  }
+}
+
 .calculator-app {
   background-color: #505050;
   max-width: 330px;
