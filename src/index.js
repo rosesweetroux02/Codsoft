@@ -63,16 +63,4 @@ document.addEventListener("DOMContentLoaded", function () {
   footer.addEventListener("click", () => {
     alert("Thanks for using the calculator!😊");
   });
-
-  const connectWithMeOnTwitter = document.querySelector(".connect-with-me-t");
-
-  connectWithMeOnTwitter.addEventListener("click", () => {
-    alert("Let's connect on Twitter!");
-  });
-
-  const connectWithMeOnLikedin = document.querySelector(".connect-with-me-l");
-
-  connectWithMeOnLikedin.addEventListener("click", () => {
-    alert("Let's connect on LinkedIn!");
-  });
 });
