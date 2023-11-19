@@ -57,4 +57,10 @@ document.addEventListener("DOMContentLoaded", function () {
   function appendToInput(value) {
     userInput.value += value;
   }
+
+  const footer = document.querySelector("footer");
+
+  footer.addEventListener("click", () => {
+    alert("Thanks for using the calculator!😊");
+  });
 });
